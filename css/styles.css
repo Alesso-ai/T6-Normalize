@@ -185,3 +185,33 @@ h1,h2,h3{
     color: var(--blanco);
     text-align: center;
 }
+
+.contenido-hero .ubicacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-hero .ubicacion p{
+    margin-left: 1rem;
+}
+
+@media (min-width: 768px) {
+    .servicio{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 5rem;
+    }
+}
+
+.servicio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.servicio h3{
+    color: var(--secundario);
+    font-weight: normal;
+}
