@@ -40,7 +40,6 @@ body {
 
 .contenedor{
     max-width: 120rem;
-    width: 95%;
     margin: 0 auto;
 }
 
@@ -70,5 +69,119 @@ body {
 }
 
 .sombra{
-    box-shadow:0px 5px 15px 0px rgb(red, green, blue);
+    box-shadow:0px 5px 15px 0px rgb(112,112, 112);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+h1{
+    font-size: 3.8rem;
+
+}
+
+h2{
+    font-size: 2.8rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+/*Titulos*/
+.titulo{
+   font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/*Utilidades*/
+.w-sm-100{
+    width: 100%;
+}
+
+@media (min-width: 576px){
+    .w-sm-100{
+        width: auto;
+    }
+}
+
+.flex{
+    display: flex;
+}
+
+.alinear-derecha{
+    justify-content: flex-end;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+/*Navegacion*/
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px){
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.navegacion-principal a{
+    color: var(--blanco);
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--oscuro);
+    cursor: pointer;
+    border-radius: .5rem;
+
+}
+
+/*Hero*/
+.hero{
+    background-image: url(../img/hero.jpg);
+    background-size: no-repeat;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.contenido-hero{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba( 0, 0, 0, .5);
+    background-color: rgba( 0, 0, 0, 70%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenido-hero h2, .contenido-hero p{
+    color: var(--blanco);
+    text-align: center;
 }
