@@ -256,3 +256,36 @@ h1,h2,h3{
     }
     
 }
+
+
+.campo{
+    margin-bottom: 2rem;
+}
+
+.campo label{
+    display: block;
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+    color: var(--blanco);
+}
+
+.campo textarea{
+    width: 100%;
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+
+.input-text{
+    width: 100%;
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+
+.footer{
+    background-color: var(--oscuro);
+    color: var(--blanco);
+    text-align: center;
+    padding: 3rem;
+}
